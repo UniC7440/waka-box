@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Update gist
-        uses: Alexander9673/waka-box@master
+        uses: waka-box/waka-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: f7c982c0d03c9ec78d6757f330c8a6cb
